@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+
+<html>
+
+<head>
+	<meta http-equiv="x-ua-compatible" content="ie=edge" />
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<meta http-equiv="content-style-type" content="text/css">
+	<meta http-equiv="content-script-type" content="text/javascript">
+	<script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
+	<script type="text/javascript" src="js/hakuchi.js"></script>
+	<link rel="stylesheet" href="js/hakuchi.css">
+    <title>白痴ースタイル編集</title>
+</head>
+
+<body>
+
+<div id="json">
+	<form id="form">
+		<h1>
+			白痴ースタイル編集
+			<span class="tooltip">
+				<input class="button" type="button" id="load" value="再読み込み">
+				<div class="tooltip-text">
+					変更を破棄して現在の設定を再読み込みする
+				</div>
+			</span>
+			<span class="tooltip">
+				<input class="button tooltip" type="button" id="save" value="変更を適用">
+				<div class="tooltip-text">
+					変更を適用する
+				</div>
+			</span>
+			<span class="tooltip">
+				<input class="button tooltip" type="reset" value="リセット">
+				<div class="tooltip-text">
+					初期値に戻す
+				</div>
+			</span>
+		</h1>
+		<div class="node" id="styles">
+		</div>
+	</form>
+</div>
+</body>
+
+</html>

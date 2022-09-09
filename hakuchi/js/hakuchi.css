@@ -1,0 +1,79 @@
+﻿* {
+	margin: 0;
+	padding: 0;
+}
+
+body, th, td, textarea, input {
+	font-family: "Lucida Grande", "Hiragino Maru Gothic ProN", "Segoe UI", Meiryo, "MS UI Gothic", Arial, sans-serif;
+	font-size: 16pt;
+}
+
+.style {
+	cursor: default;
+	display: inline-block;
+	margin: 0.5em;
+	padding: 0.5em;
+	border-radius: 0.25em;
+	border: solid 0.1em black;
+}
+
+.inactive {
+	border: solid 0.1em #fff;
+	color: #666;
+}
+
+.style span {
+	vertical-align: middle;
+}
+
+.style img {
+	vertical-align: middle;
+	width: 1.5em;
+	margin-right: 0.5em;
+}
+
+h1 {
+	padding: 0 0.25em;
+	border-bottom: 0.1em solid black;
+}
+
+h2 {
+	padding: 0.5em 0.5em 0;
+	border-bottom: 0.1em solid black;
+}
+
+.node {
+	margin: 0.25em 0 0.25em 2em;
+}
+
+label {
+	cursor: pointer;
+	padding-right: 0.5em;
+}
+
+input {
+	padding: 0.25em;
+}
+
+.tooltip {
+	position: relative;
+}
+
+.tooltip-text {
+	opacity: 0;
+	visibility: hidden;
+	position: absolute;
+	white-space: nowrap;
+	color: #fff;
+	background-color: #333;
+	padding: 0.5em;
+	border-radius: 0.25em;
+	transition: 0.2s ease-in;
+	z-index: 1;
+	pointer-events: none;
+}
+
+.tooltip:hover .tooltip-text {
+	opacity: 1;
+	visibility: visible;
+}
